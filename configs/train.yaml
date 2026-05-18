@@ -1,0 +1,15 @@
+# 训练超参数
+model: yolov8n.pt
+data: configs/dataset.yaml
+
+epochs: 30
+batch: 128
+imgsz: 640
+
+device: 0
+workers: 4
+
+lr0: 0.01
+augment: true
+name: exp
+exist_ok: false

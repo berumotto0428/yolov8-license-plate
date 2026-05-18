@@ -1,0 +1,8 @@
+# 数据集配置
+# 路径相对于本文件所在目录 (configs/)
+train: ../data/dataset/train/images
+val: ../data/dataset/valid/images
+test: ../data/dataset/test/images
+
+nc: 1
+names: ['License_Plate']

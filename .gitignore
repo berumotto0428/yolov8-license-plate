@@ -1,0 +1,30 @@
+# 数据集
+data/dataset/
+
+# 训练结果
+runs/
+
+# 模型权重
+weights/*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+
+# 环境
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# API Key 配置（如果有）
+configs/api_key.py
